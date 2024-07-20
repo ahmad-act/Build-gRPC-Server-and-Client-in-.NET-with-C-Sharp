@@ -1,0 +1,80 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "BookInformationService";
+
+package bookinformationgrpcservice;
+
+// The BookInformation gRPC service definition.
+service BookInformationGrpc {
+    // Retrieves book information by ID.
+    rpc GetBookInformation (GetBookInformationRequest) returns (GetBookInformationResponse);
+
+    // Retrieves a list of all book informations.
+    rpc ListBookInformation (ListBookInformationRequest) returns (ListBookInformationResponse);
+
+    // Creates a new book information record.
+    rpc CreateBookInformation (CreateBookInformationRequest) returns (CreateBookInformationResponse);
+
+    // Updates an existing book information record.
+    rpc UpdateBookInformation (UpdateBookInformationRequest) returns (UpdateBookInformationResponse);
+
+    // Deletes a book information record by ID.
+    rpc DeleteBookInformation (DeleteBookInformationRequest) returns (DeleteBookInformationResponse);
+}
+
+// Request message for GetBookInformation RPC.
+message GetBookInformationRequest {
+    int32 id = 1;
+}
+
+// Response message for GetBookInformation RPC.
+message GetBookInformationResponse {
+    int32 id = 1;
+    string title = 2;
+    int32 stock = 3;
+    int32 available = 4;
+}
+
+// Request message for GetBookInformations RPC.
+message ListBookInformationRequest {}
+
+// Response message for GetBookInformations RPC.
+message ListBookInformationResponse {
+    repeated GetBookInformationResponse bookinformations = 1;
+}
+
+// Request message for CreateBookInformation RPC.
+message CreateBookInformationRequest {
+    string title = 1;
+    int32 stock = 2;
+}
+
+// Response message for CreateBookInformation RPC.
+message CreateBookInformationResponse {
+    int32 id = 1;
+    string title = 2;
+    int32 stock = 3;
+    int32 available = 4;
+}
+
+// Request message for UpdateBookInformation RPC.
+message UpdateBookInformationRequest {
+    int32 id = 1;
+    string title = 2;
+    int32 stock = 3;
+}
+
+// Response message for UpdateBookInformation RPC.
+message UpdateBookInformationResponse {
+    int32 id = 1;
+}
+
+// Request message for DeleteBookInformation RPC.
+message DeleteBookInformationRequest {
+    int32 id = 1;
+}
+
+// Response message for DeleteBookInformation RPC.
+message DeleteBookInformationResponse {
+    int32 id = 1;
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dBK0HjIxG8w8w+hAtd0tzWE35qkAa6vKm8KdS8FJFkdlPtZdB9RZjj7gRnS4qBdjKPOaTJXDmM+SkYAK+AkTDQ==",
+  "success": true,
+  "projectFilePath": "D:\\My Study\\Backend Technology\\gRPC\\LearningGrpc\\Build-gRPC-Server-and-Client-in-.NET-with-C-Sharp\\BookInformationService\\BookInformationClient\\BookInformationClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\google.protobuf\\3.27.2\\google.protobuf.3.27.2.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\grpc.core.api\\2.64.0\\grpc.core.api.2.64.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\grpc.net.client\\2.64.0\\grpc.net.client.2.64.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\grpc.net.common\\2.64.0\\grpc.net.common.2.64.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\grpc.tools\\2.65.0\\grpc.tools.2.65.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

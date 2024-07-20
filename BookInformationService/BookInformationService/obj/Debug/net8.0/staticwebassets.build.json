@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mTQFwFoDPsrH7qjZbEYBv2yS0hMxd3ayGfcmgW9P5mM=",
+  "Source": "BookInformationService",
+  "BasePath": "_content/BookInformationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

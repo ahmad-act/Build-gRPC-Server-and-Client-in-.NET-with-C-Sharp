@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Bookinformation.cs \
+obj\Debug\net8.0/BookinformationGrpc.cs: D:/My Study/Backend Technology/gRPC/LearningGrpc/Build-gRPC-Server-and-Client-in-.NET-with-C-Sharp/BookInformationService/BookInformationService/Protos/bookinformation.proto
